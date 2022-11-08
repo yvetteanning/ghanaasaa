@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: orangered;
+    background-color: #121212;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-shadow: 1px 1px rgb(221, 160, 6);
+
+    
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .system {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+
+  #aboutDance span {
+    transition: all 500ms ease-in-out;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+
+  }
+
+  #aboutDance span:hover {
+    transform: scale(300%);
+    /* color: whitesmoke; */
+  }
+
+
+  .dance {
+    margin: 0 auto;
+    columns: 3;
+    column-gap: 5rem;
+  }
+    
+    .dance:hover {
+      transform: scale(1.2);
+      transition-duration: 1s;
+      transition-delay: 0.1s;
+      background-color: rgb(240, 236, 236);
+      
+  }
+  
+  
+
+  .dance a {
+    width: 90%;
+  }
+  
+  .dance a img {
+    width: 27rem;
+  }
+
+  a:link
+  {
+      text-decoration: none;
+      color: rgb(29, 69, 181);
+  }
+
+  a:visited
+  {
+      color: white;
+  }
+
+  a:hover
+  {
+    filter: saturate(10) contrast(90%);
+  }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GD</title>
+    <link rel="stylesheet" href="nes.css" />
+    <link
+      href=" @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@900&display=swap');"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top"></div>
+      <div class="system">
+        <p id="aboutDance">
+          ♪ ADOWA ♪ Adowa in the Akan language mean “Antelope”. The Adowa dance
+          is a dance by the Akan people of Ghana which is believed to have
+          originated from mimicking the unusual steps of a sacrificial antelope.
+          It is danced at ceremonies such as marriage, naming ceremony,
+          funerals, festivals, enstoolment and destoolment of chiefs and queen
+          mothers It is characterized with moving hands accompanied by footsteps
+          and more often than not the dance communicates a particular message.
+          Depending on what the dancer wants to say to his/her audience the
+          dance could be a praise dance, it could be a dance to issue warning,
+          to rain insult on someone, to show power and domination, to express
+          joy. ♪ AGBADZA ♪ is a very popular recreational dance. It entertains
+          people at funerals, weddings and any other get-together or party. Even
+          the modern bands in the cities like to incorporate this fun rhythm
+          into their music. Some traditional Ewe dances are reserved to people
+          of a certain age group or religion. But any child, woman or
+          great-grandfather is welcome to dance Agbadza.The name itself means
+          something like "for everybody". If you ever get a chance to attend a
+          traditional Ewe event, even you, a foreign visitor, will be expected
+          to dance. ♪ AZONTO ♪ when literally translated means wayward girls is
+          a dance form belonging to West Africa. Considered to be
+          “communicative” this dance style is said to have originated from
+          Ghana. It is said to have been created from a traditional “Ghanian”
+          dance style known as “Kpanlogo”. In addition, the basic moves of this
+          dance revolves around imitating daily chores such as ironing, driving,
+          washing, swimming, boxing etc. Furthermore, similar to most other
+          African dances the Azonto also involves a few complex and acrobatic
+          body movements. ♪ PILOLO ♪ is the famous Ghanaian dance step, which
+          became a big hit on the continent and around the world in 2018. The
+          creator of Pilolo, Zigi, is also known for having previously released
+          Kupe, the famous dance competition that conquered everyone by storm.
+          From the streets of Ghana, Pilolo became a hit in New York when Janet
+          Jackson performed both Coupe and Pilolo at the end of her performance
+          Made for moment. The name Pilolo was borrowed from a hide and seek
+          game popular among Ghanaian children. Zigi explained in an interview
+          that in the evening he came up with steps, preparing to shoot a dance
+          video. ♪ ALKAYIDA ♪ (also spelt Ashanti Twi: Alkaida), also known as
+          Akayida, is a Ghanaian dance with an emphasis on side to side moves,
+          incorporating upper and body gestures, and encouraging group routines
+          as well as individual competition. Alkayida dance is intensively
+          relaxed, intensively free-form, intensively involves footwork, and
+          incorporates vast arrays of hip-life dance moves. It involves the
+          swaying of the body along with hand and shoulder movements in a
+          certain pattern. According to hiplife artist Guru who had a key role
+          in popularizing the dance, the name of the dance should be written. ♪
+          ♪ BAMAYA ♪ meaning “The river is wet”, is the most popular social
+          music and dance among the inhabitants of Dagbon of Northern Ghana. The
+          history of this classic dance which started as a religious musical
+          performance underscores the philosophy and culture of the
+          Dagbamba/Dagomba towards women. Baamaaya now functions during
+          funerals, festivals, and national day celebrations.
+        </p>
+
+        <p>ASA(DANCES)</p>
+      </div>
+    </div>
+    <div class="dance_wrapper">
+      <div class="dance">
+        <a href="https://youtu.be/3rq1A8b6JPw"><img src="alkayida .GIF" /></a>
+        <a href="https://youtu.be/C4GrC_8rLwU"><img src="adowa.GIF" /></a>
+        <a href="https://youtu.be/NexP3uRDaDI"><img src="azonto.GIF" /></a>
+        <a href="https://youtu.be/XzfAuw_zu6s"><img src="pilolo.gif" /></a>
+        <a href="https://youtu.be/fQNMMI81OEk"><img src="agbadza.GIF" /></a>
+        <a href="https://youtu.be/knhzGHyRphQ"><img src="bamaya.GIF" /></a>
+      </div>
+    </div>
+    <div class="soundcloud">
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1019848666&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+      ></iframe>
+      <div
+        style="
+          font-size: 10px;
+          color: #cccccc;
+          line-break: anywhere;
+          word-break: normal;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-family: Interstate, Lucida Grande, Lucida Sans Unicode,
+            Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+          font-weight: 100;
+        "
+      >
+        <a
+          href="https://soundcloud.com/djovuk"
+          title="DJ OV"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >DJ OV</a
+        >
+        ·
+        <a
+          href="https://soundcloud.com/djovuk/madeinghana2"
+          title="#MadeInGhana VOLUME 2 • HIP/HIGHLIFE, AFROBEATS &amp; DRILL MIX (2021) || @deejayovuk"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none"
+          >#MadeInGhana VOLUME 2 • HIP/HIGHLIFE, AFROBEATS &amp; DRILL MIX
+          (2021) || @deejayovuk</a
+        >
+      </div>
+    </div>
+
+    <script>
+      const txtParagraph = document.querySelector("#aboutDance");
+      let txt = txtParagraph.textContent.replace("\n", "").split(" ");
+      txt = txt.filter((n) => n);
+      txtParagraph.textContent = "";
+      let newTxt = "";
+      txt.forEach((element) => {
+        newTxt += ` <span class="wrd">${element}<span>`;
+        txtParagraph.innerHTML += ` <span>${element}<span>`;
+      });
+      console.log(newTxt);
+    </script>
+  </body>
+</html>
